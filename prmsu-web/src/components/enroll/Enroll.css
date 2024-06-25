@@ -1,0 +1,45 @@
+.img-cont{
+    display: grid;
+    place-items: center;
+    padding-top: 3%;
+}
+.img-cont h1{
+    padding-bottom: 2%;
+}
+.images{
+    width: 70%;
+    text-align: center;
+}
+.images img{
+    height: 60vh;
+    width: 400px;
+    margin-left: 4px;
+}
+
+.admission-btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 7px;
+    margin-top: 2%;
+    background-color: rgb(36, 36, 46);
+}
+.admission-btn:hover{
+    background-color: rgba(36, 36, 46, 0.542);
+    color: black;
+}
+@media (max-width: 1170px) {
+    .images img{
+        height: 60vh;
+        width: 300px;
+        margin-left: 4px;
+    }
+}
+@media (max-width: 560px) {
+    .images img{
+        height: 50vh;
+        width: 250px;
+        margin-left: 4px;
+    }
+}
